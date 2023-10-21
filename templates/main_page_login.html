@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title-heading">Football stats</h2>
+    </div>
+    <div id="login-container">
+        <h2 class="login-heading">Sign in</h2>
+        <div>
+            {% for message in messages %}
+            <h5>{{message}}</h5>
+            {% endfor %}
+        </div>
+        <form id="login-form" action="" method="POST">
+            {% csrf_token %}
+            <div class="input-container">
+                <input type="text" name="username" placeholder="Login">
+            </div>
+            <div class="input-container">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <input type="submit" value="Login">
+            
+        </form>
+        <p>Don't have an account yet? <a href="{% url 'signup' %}">Sing up</a></p>
+    </div>
+</body>
+</html>

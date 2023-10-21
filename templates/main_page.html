@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title-heading">Football stats</h2>
+        <button class="logout-button"><a href="{% url 'logout' %}" id="logout-link">Logout</a></button>
+    </div>
+    <p id="user-text">Hello {{ current_user }}</p>
+    <div id="flag-container">
+        <p id="choose-country-text">Choose country</p>
+        <!-- Tabela z flagami krajów -->
+        <table>
+            <tr>
+                <td>
+                    <a href="{% url 'country_detail' '39' %}">
+                        <img src="{% static 'images/england.jpg' %}" alt="Country 1" class="country-flag">
+                </td>
+                <td>
+                    <a href="{% url 'country_detail' 'Italy' %}">
+                        <img src="{% static 'images/italy.png' %}" alt="Country 2" class="country-flag">
+                </td>
+                <td>
+                    <a href="{% url 'country_detail' 'Spain' %}">
+                        <img src="{% static 'images/spain.png' %}" alt="Country 3" class="country-flag">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="{% url 'country_detail' 'France' %}">
+                        <img src="{% static 'images/france.png' %}" alt="Country 4" class="country-flag">
+                </td>
+                <td>
+                    <a href="{% url 'country_detail' 'Germany' %}">
+                        <img src="{% static 'images/germany.png' %}" alt="Country 5" class="country-flag">
+                </td>
+                <td>
+                    <a href="{% url 'country_detail' 'Poland' %}">   
+                        <img src="{% static 'images/poland.png' %}" alt="Country 6" class="country-flag">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

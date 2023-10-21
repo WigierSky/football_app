@@ -1,0 +1,120 @@
+body {
+    background-image: url('../images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Dodaj dowolne inne style, które chcesz na stronie */
+}
+
+.header {
+    background-color: rgba(0, 56, 0, 0.7);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    max-height: 40px; /* Minimalna wysokość na 50 pikseli */
+}
+
+.logout-button {
+    background-color: #2E7D32;
+    padding: 5px 10px;
+    border: 2px solid #0A6925; /* Mocno ciemnozielona obwódka */
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-self: right;
+    margin-left: auto;
+}
+
+#login-button:hover, #logout-button:hover {
+    background-color: #0A6925; /* Zmiana koloru tła po najechaniu myszą */
+}
+
+.login-heading {
+    text-align: center;
+  }
+
+.title-heading {
+    color: #000000;
+    text-align: left;
+}
+
+#login-container {
+    background-color:rgba(0, 69, 0, 0.7);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+
+
+.input-container {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-container h2 {
+    margin: 0;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    border: none;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #2E7D32;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h5{
+    color: red
+}
+
+#user-text{
+    color: rgb(30, 152, 5); /* Kolor tekstu na czarny */
+    font-size: 40px; /* Rozmiar tekstu na 20 pikseli */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+#logout-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.country-flag {
+    margin: 10px;
+    width: 310px; /* Rozciągnij flagi na całą szerokość #flag-container */
+    height: 186px; /* Zachowaj proporcje flag */
+}
+
+#flag-container {
+    background-color:rgba(0, 69, 0, 0.7);
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+    
+}
+
+#choose-country-text {
+    font-size: 30px;
+}
+
+

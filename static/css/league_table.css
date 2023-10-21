@@ -1,0 +1,22 @@
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #2E7D32;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #2E7D32;
+}

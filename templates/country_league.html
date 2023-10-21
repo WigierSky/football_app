@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/league_table.css' %}">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title-heading">Football stats</h2>
+        <button class="logout-button"><a href="{% url 'logout' %}" id="logout-link">Logout</a></button>
+    </div>
+    <div id="flag-container">
+        <h1>{{ leagueName }} Table</h1>
+        <table id="league-table">
+            <thead>
+                <tr>
+                    <th>Pozycja</th>
+                    <th>Drużyna</th>
+                    <th>Mecze</th>
+                    <th>Wygrane</th>
+                    <th>Remisy</th>
+                    <th>Przegrane</th>
+                    <th>Punkty</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Dane będą wstawiane tutaj dynamicznie za pomocą JavaScript -->
+            </tbody>
+        </table>
+        <script>
+            var leagueData = {{ leagueData|safe }};
+        </script>
+        <script src="{% static 'js/table_generation.js' %}"></script>
+        <div id="league-data" data-league="{{ leagueData|safe }}"></div>
+    </div>
+</body>
+</html>
