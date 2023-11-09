@@ -1,0 +1,24 @@
+#player-name {
+    font-size: 24px; /* Przykładowy rozmiar czcionki (możesz dostosować) */
+    font-weight: bold; /* Pogrubiona nazwa klubu */
+}
+
+/* Dla innych informacji o klubie, również możesz ustawić odpowiednie stylizacje */
+#player-age {
+    font-size: 18px;
+}
+
+#player-club {
+    font-size: 18px;
+}
+
+#player-info-container {
+    display: flex;
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    text-align: center; /* Wyrównanie tekstu do środka */
+}
+
+#player-photo {
+    margin-right: 20px; /* Dodaj odstęp między logiem a resztą informacji */
+}

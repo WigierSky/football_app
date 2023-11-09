@@ -1,929 +1,839 @@
 {
-    "get": "standings",
-    "parameters": {
-        "league": "39",
-        "season": "2023"
-    },
-    "errors": [],
-    "results": 1,
-    "paging": {
-        "current": 1,
-        "total": 1
-    },
-    "response": [
-        {
-            "league": {
-                "id": 39,
-                "name": "Premier League",
-                "country": "England",
-                "logo": "https://media-4.api-sports.io/football/leagues/39.png",
-                "flag": "https://media-4.api-sports.io/flags/gb.svg",
-                "season": 2023,
-                "standings": [
-                    [
-                        {
-                            "rank": 1,
-                            "team": {
-                                "id": 50,
-                                "name": "Manchester City",
-                                "logo": "https://media-4.api-sports.io/football/teams/50.png"
-                            },
-                            "points": 21,
-                            "goalsDiff": 12,
-                            "group": "Premier League",
-                            "form": "WLLWW",
-                            "status": "same",
-                            "description": "Promotion - Champions League (Group Stage: )",
-                            "all": {
-                                "played": 9,
-                                "win": 7,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 19,
-                                    "against": 7
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 4,
-                                "draw": 0,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 10,
-                                    "against": 2
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 3,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 5
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 2,
-                            "team": {
-                                "id": 42,
-                                "name": "Arsenal",
-                                "logo": "https://media-4.api-sports.io/football/teams/42.png"
-                            },
-                            "points": 21,
-                            "goalsDiff": 10,
-                            "group": "Premier League",
-                            "form": "DWWDW",
-                            "status": "same",
-                            "description": "Promotion - Champions League (Group Stage: )",
-                            "all": {
-                                "played": 9,
-                                "win": 6,
-                                "draw": 3,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 18,
-                                    "against": 8
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 3,
-                                "draw": 2,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 10,
-                                    "against": 6
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 3,
-                                "draw": 1,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 8,
-                                    "against": 2
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 3,
-                            "team": {
-                                "id": 40,
-                                "name": "Liverpool",
-                                "logo": "https://media-4.api-sports.io/football/teams/40.png"
-                            },
-                            "points": 20,
-                            "goalsDiff": 11,
-                            "group": "Premier League",
-                            "form": "WDLWW",
-                            "status": "same",
-                            "description": "Promotion - Champions League (Group Stage: )",
-                            "all": {
-                                "played": 9,
-                                "win": 6,
-                                "draw": 2,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 20,
-                                    "against": 9
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 4,
-                                "draw": 0,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 11,
-                                    "against": 2
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 2,
-                                "draw": 2,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 7
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 4,
-                            "team": {
-                                "id": 47,
-                                "name": "Tottenham",
-                                "logo": "https://media-4.api-sports.io/football/teams/47.png"
-                            },
-                            "points": 20,
-                            "goalsDiff": 10,
-                            "group": "Premier League",
-                            "form": "WWDWW",
-                            "status": "same",
-                            "description": "Promotion - Champions League (Group Stage: )",
-                            "all": {
-                                "played": 8,
-                                "win": 6,
-                                "draw": 2,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 18,
-                                    "against": 8
-                                }
-                            },
-                            "home": {
-                                "played": 3,
-                                "win": 3,
-                                "draw": 0,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 2
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 3,
-                                "draw": 2,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 12,
-                                    "against": 6
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 5,
-                            "team": {
-                                "id": 34,
-                                "name": "Newcastle",
-                                "logo": "https://media-4.api-sports.io/football/teams/34.png"
-                            },
-                            "points": 16,
-                            "goalsDiff": 15,
-                            "group": "Premier League",
-                            "form": "WDWWW",
-                            "status": "same",
-                            "description": "Promotion - Europa League (Group Stage: )",
-                            "all": {
-                                "played": 9,
-                                "win": 5,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 24,
-                                    "against": 9
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 4,
-                                "draw": 0,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 13,
-                                    "against": 3
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 11,
-                                    "against": 6
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 6,
-                            "team": {
-                                "id": 66,
-                                "name": "Aston Villa",
-                                "logo": "https://media-4.api-sports.io/football/teams/66.png"
-                            },
-                            "points": 16,
-                            "goalsDiff": 7,
-                            "group": "Premier League",
-                            "form": "DWWWL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 8,
-                                "win": 5,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 19,
-                                    "against": 12
-                                }
-                            },
-                            "home": {
-                                "played": 3,
-                                "win": 3,
-                                "draw": 0,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 13,
-                                    "against": 2
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 10
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 7,
-                            "team": {
-                                "id": 51,
-                                "name": "Brighton",
-                                "logo": "https://media-4.api-sports.io/football/teams/51.png"
-                            },
-                            "points": 16,
-                            "goalsDiff": 4,
-                            "group": "Premier League",
-                            "form": "LDLWW",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 5,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 22,
-                                    "against": 18
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 3,
-                                "draw": 1,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 13,
-                                    "against": 8
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 2,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 10
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 8,
-                            "team": {
-                                "id": 48,
-                                "name": "West Ham",
-                                "logo": "https://media-4.api-sports.io/football/teams/48.png"
-                            },
-                            "points": 14,
-                            "goalsDiff": 3,
-                            "group": "Premier League",
-                            "form": "DWLLW",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 8,
-                                "win": 4,
-                                "draw": 2,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 15,
-                                    "against": 12
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 8,
-                                    "against": 6
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 6
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 9,
-                            "team": {
-                                "id": 49,
-                                "name": "Chelsea",
-                                "logo": "https://media-4.api-sports.io/football/teams/49.png"
-                            },
-                            "points": 12,
-                            "goalsDiff": 4,
-                            "group": "Premier League",
-                            "form": "DWWLD",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 3,
-                                "draw": 3,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 13,
-                                    "against": 9
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 1,
-                                "draw": 2,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 5
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 4
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 10,
-                            "team": {
-                                "id": 33,
-                                "name": "Manchester United",
-                                "logo": "https://media-4.api-sports.io/football/teams/33.png"
-                            },
-                            "points": 12,
-                            "goalsDiff": -3,
-                            "group": "Premier League",
-                            "form": "WLWLL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 8,
-                                "win": 4,
-                                "draw": 0,
-                                "lose": 4,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 12
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 3,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 7
-                                }
-                            },
-                            "away": {
-                                "played": 3,
-                                "win": 1,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 2,
-                                    "against": 5
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 11,
-                            "team": {
-                                "id": 52,
-                                "name": "Crystal Palace",
-                                "logo": "https://media-4.api-sports.io/football/teams/52.png"
-                            },
-                            "points": 12,
-                            "goalsDiff": -4,
-                            "group": "Premier League",
-                            "form": "LDWDL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 3,
-                                "draw": 3,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 11
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 2,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 3,
-                                    "against": 3
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 8
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 12,
-                            "team": {
-                                "id": 39,
-                                "name": "Wolves",
-                                "logo": "https://media-4.api-sports.io/football/teams/39.png"
-                            },
-                            "points": 11,
-                            "goalsDiff": -4,
-                            "group": "Premier League",
-                            "form": "WDWDL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 3,
-                                "draw": 2,
-                                "lose": 4,
-                                "goals": {
-                                    "for": 11,
-                                    "against": 15
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 5,
-                                    "against": 9
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 6
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 13,
-                            "team": {
-                                "id": 36,
-                                "name": "Fulham",
-                                "logo": "https://media-4.api-sports.io/football/teams/36.png"
-                            },
-                            "points": 11,
-                            "goalsDiff": -5,
-                            "group": "Premier League",
-                            "form": "WLDWL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 8,
-                                "win": 3,
-                                "draw": 2,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 8,
-                                    "against": 13
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 2,
-                                "draw": 0,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 6
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 2,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 7
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 14,
-                            "team": {
-                                "id": 55,
-                                "name": "Brentford",
-                                "logo": "https://media-4.api-sports.io/football/teams/55.png"
-                            },
-                            "points": 10,
-                            "goalsDiff": 2,
-                            "group": "Premier League",
-                            "form": "WLDLL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 2,
-                                "draw": 4,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 14,
-                                    "against": 12
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 1,
-                                "draw": 3,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 8
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 5,
-                                    "against": 4
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 15,
-                            "team": {
-                                "id": 65,
-                                "name": "Nottingham Forest",
-                                "logo": "https://media-4.api-sports.io/football/teams/65.png"
-                            },
-                            "points": 10,
-                            "goalsDiff": -2,
-                            "group": "Premier League",
-                            "form": "DDDLD",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 2,
-                                "draw": 4,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 10,
-                                    "against": 12
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 3,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 5
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 7
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 16,
-                            "team": {
-                                "id": 45,
-                                "name": "Everton",
-                                "logo": "https://media-4.api-sports.io/football/teams/45.png"
-                            },
-                            "points": 7,
-                            "goalsDiff": -5,
-                            "group": "Premier League",
-                            "form": "LWLWL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 2,
-                                "draw": 1,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 9,
-                                    "against": 14
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 1,
-                                "draw": 0,
-                                "lose": 4,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 5
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 5,
-                                    "against": 9
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 17,
-                            "team": {
-                                "id": 1359,
-                                "name": "Luton",
-                                "logo": "https://media-4.api-sports.io/football/teams/1359.png"
-                            },
-                            "points": 5,
-                            "goalsDiff": -9,
-                            "group": "Premier League",
-                            "form": "DLLWD",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 9,
-                                "win": 1,
-                                "draw": 2,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 8,
-                                    "against": 17
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 0,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 3,
-                                    "against": 6
-                                }
-                            },
-                            "away": {
-                                "played": 5,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 5,
-                                    "against": 11
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 18,
-                            "team": {
-                                "id": 44,
-                                "name": "Burnley",
-                                "logo": "https://media-4.api-sports.io/football/teams/44.png"
-                            },
-                            "points": 4,
-                            "goalsDiff": -16,
-                            "group": "Premier League",
-                            "form": "LLWLL",
-                            "status": "same",
-                            "description": "Relegation - Championship",
-                            "all": {
-                                "played": 9,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 7,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 23
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 0,
-                                "draw": 0,
-                                "lose": 5,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 16
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 1,
-                                "draw": 1,
-                                "lose": 2,
-                                "goals": {
-                                    "for": 3,
-                                    "against": 7
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 19,
-                            "team": {
-                                "id": 35,
-                                "name": "Bournemouth",
-                                "logo": "https://media-4.api-sports.io/football/teams/35.png"
-                            },
-                            "points": 3,
-                            "goalsDiff": -14,
-                            "group": "Premier League",
-                            "form": "LLLLD",
-                            "status": "same",
-                            "description": "Relegation - Championship",
-                            "all": {
-                                "played": 9,
-                                "win": 0,
-                                "draw": 3,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 20
-                                }
-                            },
-                            "home": {
-                                "played": 5,
-                                "win": 0,
-                                "draw": 2,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 2,
-                                    "against": 9
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 0,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 4,
-                                    "against": 11
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 20,
-                            "team": {
-                                "id": 62,
-                                "name": "Sheffield Utd",
-                                "logo": "https://media-4.api-sports.io/football/teams/62.png"
-                            },
-                            "points": 1,
-                            "goalsDiff": -16,
-                            "group": "Premier League",
-                            "form": "LLLLD",
-                            "status": "same",
-                            "description": "Relegation - Championship",
-                            "all": {
-                                "played": 8,
-                                "win": 0,
-                                "draw": 1,
-                                "lose": 7,
-                                "goals": {
-                                    "for": 6,
-                                    "against": 22
-                                }
-                            },
-                            "home": {
-                                "played": 4,
-                                "win": 0,
-                                "draw": 1,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 3,
-                                    "against": 13
-                                }
-                            },
-                            "away": {
-                                "played": 4,
-                                "win": 0,
-                                "draw": 0,
-                                "lose": 4,
-                                "goals": {
-                                    "for": 3,
-                                    "against": 9
-                                }
-                            },
-                            "update": "2023-10-21T00:00:00+00:00"
-                        }
-                    ]
-                ]
+  "get": "standings",
+  "parameters": {
+    "league": "61",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 84,
+                "name": "Nice",
+                "logo": "https://media-4.api-sports.io/football/teams/84.png"
+              },
+              "points": 25,
+              "goalsDiff": 9,
+              "group": "Ligue 1",
+              "form": "WWWWD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage: )",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 4,
+                "lose": 0,
+                "goals": {
+                  "for": 13,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 3,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 4,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 85,
+                "name": "Paris Saint Germain",
+                "logo": "https://media-4.api-sports.io/football/teams/85.png"
+              },
+              "points": 24,
+              "goalsDiff": 17,
+              "group": "Ligue 1",
+              "form": "WWWWD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage: )",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 26,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 15,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 3,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 11,
+                  "against": 5
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 91,
+                "name": "Monaco",
+                "logo": "https://media-4.api-sports.io/football/teams/91.png"
+              },
+              "points": 23,
+              "goalsDiff": 11,
+              "group": "Ligue 1",
+              "form": "WLWWW",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage: )",
+              "all": {
+                "played": 11,
+                "win": 7,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 25,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 5,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 13,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 2,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 12,
+                  "against": 10
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 93,
+                "name": "Reims",
+                "logo": "https://media-4.api-sports.io/football/teams/93.png"
+              },
+              "points": 20,
+              "goalsDiff": 5,
+              "group": "Ligue 1",
+              "form": "WWDLW",
+              "status": "same",
+              "description": "Promotion - Champions League (Qualification: )",
+              "all": {
+                "played": 11,
+                "win": 6,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 17,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 3,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 10,
+                  "against": 7
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 79,
+                "name": "Lille",
+                "logo": "https://media-4.api-sports.io/football/teams/79.png"
+              },
+              "points": 19,
+              "goalsDiff": 4,
+              "group": "Ligue 1",
+              "form": "DWWDW",
+              "status": "same",
+              "description": "Promotion - Europa League (Group Stage: )",
+              "all": {
+                "played": 11,
+                "win": 5,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 14,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 4,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 1,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 8
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 106,
+                "name": "Stade Brestois 29",
+                "logo": "https://media-4.api-sports.io/football/teams/106.png"
+              },
+              "points": 15,
+              "goalsDiff": -2,
+              "group": "Ligue 1",
+              "form": "LLLDD",
+              "status": "same",
+              "description": "Promotion - Europa Conference League (Qualification: )",
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 11,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 7
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 111,
+                "name": "LE Havre",
+                "logo": "https://media-4.api-sports.io/football/teams/111.png"
+              },
+              "points": 14,
+              "goalsDiff": -1,
+              "group": "Ligue 1",
+              "form": "WDDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 12,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 1,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 8
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 83,
+                "name": "Nantes",
+                "logo": "https://media-4.api-sports.io/football/teams/83.png"
+              },
+              "points": 14,
+              "goalsDiff": -4,
+              "group": "Ligue 1",
+              "form": "LLWWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 4,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 16,
+                  "against": 20
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 10
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 2,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 10
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 81,
+                "name": "Marseille",
+                "logo": "https://media-4.api-sports.io/football/teams/81.png"
+              },
+              "points": 13,
+              "goalsDiff": 0,
+              "group": "Ligue 1",
+              "form": "DLWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 10,
+                "win": 3,
+                "draw": 4,
+                "lose": 3,
+                "goals": {
+                  "for": 12,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 3,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 0,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 5,
+                  "against": 11
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 116,
+                "name": "Lens",
+                "logo": "https://media-4.api-sports.io/football/teams/116.png"
+              },
+              "points": 13,
+              "goalsDiff": -1,
+              "group": "Ligue 1",
+              "form": "DWDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 4,
+                "lose": 4,
+                "goals": {
+                  "for": 12,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 9
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 94,
+                "name": "Rennes",
+                "logo": "https://media-4.api-sports.io/football/teams/94.png"
+              },
+              "points": 12,
+              "goalsDiff": 1,
+              "group": "Ligue 1",
+              "form": "LDLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 6,
+                "lose": 3,
+                "goals": {
+                  "for": 16,
+                  "against": 15
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 14,
+                  "against": 10
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 0,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 95,
+                "name": "Strasbourg",
+                "logo": "https://media-4.api-sports.io/football/teams/95.png"
+              },
+              "points": 12,
+              "goalsDiff": -6,
+              "group": "Ligue 1",
+              "form": "DDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 3,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 15
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 1,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 9
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 82,
+                "name": "Montpellier",
+                "logo": "https://media-4.api-sports.io/football/teams/82.png"
+              },
+              "points": 11,
+              "goalsDiff": 1,
+              "group": "Ligue 1",
+              "form": "LWLWD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 10,
+                "win": 3,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 15,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 4,
+                "win": 1,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 9,
+                  "against": 9
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 96,
+                "name": "Toulouse",
+                "logo": "https://media-4.api-sports.io/football/teams/96.png"
+              },
+              "points": 11,
+              "goalsDiff": -3,
+              "group": "Ligue 1",
+              "form": "LLDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 12,
+                  "against": 15
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 1,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 9
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 97,
+                "name": "Lorient",
+                "logo": "https://media-4.api-sports.io/football/teams/97.png"
+              },
+              "points": 11,
+              "goalsDiff": -5,
+              "group": "Ligue 1",
+              "form": "DLWDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 15,
+                  "against": 20
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 0,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 6,
+                  "against": 12
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 112,
+                "name": "Metz",
+                "logo": "https://media-4.api-sports.io/football/teams/112.png"
+              },
+              "points": 10,
+              "goalsDiff": -8,
+              "group": "Ligue 1",
+              "form": "DDLLL",
+              "status": "same",
+              "description": "Ligue 1 (Promotion - Play Offs: )",
+              "all": {
+                "played": 11,
+                "win": 2,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 17
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 0,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 5,
+                  "against": 11
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 99,
+                "name": "Clermont Foot",
+                "logo": "https://media-4.api-sports.io/football/teams/99.png"
+              },
+              "points": 6,
+              "goalsDiff": -7,
+              "group": "Ligue 1",
+              "form": "DLWDL",
+              "status": "same",
+              "description": "Relegation - Ligue 2",
+              "all": {
+                "played": 10,
+                "win": 1,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 7,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 0,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 2,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 1,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 7
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 80,
+                "name": "Lyon",
+                "logo": "https://media-4.api-sports.io/football/teams/80.png"
+              },
+              "points": 4,
+              "goalsDiff": -11,
+              "group": "Ligue 1",
+              "form": "DLDLL",
+              "status": "same",
+              "description": "Relegation - Ligue 2",
+              "all": {
+                "played": 10,
+                "win": 0,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 8,
+                  "against": 19
+                }
+              },
+              "home": {
+                "played": 6,
+                "win": 0,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 4,
+                "win": 0,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 5
+                }
+              },
+              "update": "2023-11-06T00:00:00+00:00"
             }
-        }
-    ]
+          ]
+        ]
+      }
+    }
+  ]
 }

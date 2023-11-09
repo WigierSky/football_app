@@ -14,35 +14,40 @@
     </div>
     <p id="user-text">Hello {{ current_user }}</p>
     <div id="flag-container">
-        <p id="choose-country-text">Choose country</p>
-        <!-- Tabela z flagami krajów -->
+        <p id="choose-country-text">Choose league</p>
         <table>
             <tr>
                 <td>
-                    <a href="{% url 'country_detail' '39' %}">
-                        <img src="{% static 'images/england.jpg' %}" alt="Country 1" class="country-flag">
+                    <a href="{% url 'league_detail' 39 %}">
+                        <img src="https://media-4.api-sports.io/football/leagues/39.png" alt="League 1" class="country-flag">
+                    </a>
                 </td>
                 <td>
-                    <a href="{% url 'country_detail' 'Italy' %}">
-                        <img src="{% static 'images/italy.png' %}" alt="Country 2" class="country-flag">
+                    <a href="{% url 'league_detail' 135 %}">
+                        <img src="https://media-4.api-sports.io/football/leagues/135.png" alt="League 2" class="country-flag">
+                    </a>
                 </td>
                 <td>
-                    <a href="{% url 'country_detail' 'Spain' %}">
-                        <img src="{% static 'images/spain.png' %}" alt="Country 3" class="country-flag">
+                    <a href="{% url 'league_detail' 140 %}">
+                        <img src="https://media-4.api-sports.io/football/leagues/140.png" alt="League 3" class="country-flag">
+                    </a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="{% url 'country_detail' 'France' %}">
-                        <img src="{% static 'images/france.png' %}" alt="Country 4" class="country-flag">
+                    <a href="{% url 'league_detail' 61 %}">
+                        <img src="https://media-4.api-sports.io/football/leagues/61.png" alt="League 4" class="country-flag">
+                    </a>
                 </td>
                 <td>
-                    <a href="{% url 'country_detail' 'Germany' %}">
-                        <img src="{% static 'images/germany.png' %}" alt="Country 5" class="country-flag">
+                    <a href="{% url 'league_detail' 78 %}">
+                        <img src="https://media-4.api-sports.io/football/leagues/78.png" alt="League 5" class="country-flag">
+                    </a>
                 </td>
                 <td>
-                    <a href="{% url 'country_detail' 'Poland' %}">   
-                        <img src="{% static 'images/poland.png' %}" alt="Country 6" class="country-flag">
+                    <a href="{% url 'league_detail' 106 %}">   
+                        <img src="https://media-4.api-sports.io/football/leagues/106.png" alt="League 6" class="country-flag">
+                    </a>
                 </td>
             </tr>
         </table>

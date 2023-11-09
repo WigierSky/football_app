@@ -3,7 +3,6 @@ h1 {
 }
 
 table {
-    width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
     background-color: #2E7D32;
@@ -19,4 +18,56 @@ th, td {
 
 thead {
     background-color: #2E7D32;
+}
+
+.highlight {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.highlight a {
+    text-decoration: none; /* Usunięcie podkreślenia linków */
+    color: inherit; /* Dziedziczenie koloru tekstu od rodzica */
+    cursor: pointer; /* Zmiana kształtu kursora na podstawowy */
+}
+
+#league-table {
+    width: 80%; /* Szerokość dla tabeli o id "league-table" */
+}
+
+#top-scorers-table {
+    width: 50%; /* Szerokość dla tabeli o id "top-scorers-table" */
+}
+
+/* Przykładowe style CSS */
+#matches-container {
+    margin-top: 20px;
+}
+
+.match {
+    font-size: 18px; /* Ustaw rozmiar czcionki meczów na 16px (lub dostosuj do swoich preferencji) */
+    margin-bottom: 20px; /* Dodaj odstęp między meczami */
+    font-weight: 550;
+    position: relative; /* Ustalamy pozycję względem rodzica */
+}
+
+.match::after {
+    margin-top: 15px;
+    content: "";
+    display: block;
+    border-top: 1px solid black; /* Ustaw cienką, czarną kreskę poziomą */
+    width: 400px; /* Stała szerokość kreski */
+    position: absolute; /* Ustalamy absolutną pozycję względem meczu */
+    top: 50%; /* Przesuwamy kreskę do połowy wysokości meczu */
+    left: 50%; /* Przesuwamy kreskę do środka poziomo */
+    transform: translate(-50%, -50%); /* Wyśrodkowanie kreski */
+}
+
+.title-table {
+    margin-top: 50px;
+}
+
+.league-name {
+    font-size: 30px;
+    font-weight: 8000;
 }

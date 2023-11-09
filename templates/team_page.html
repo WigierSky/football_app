@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/teams.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/league_table.css' %}">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title-heading">Football stats</h2>
+        <button class="logout-button"><a href="{% url 'logout' %}" id="logout-link">Logout</a></button>
+    </div>
+    <div id="league-container">
+        <div id="club-info-container">
+            <img id="club-logo" src="" alt="Club Logo">
+            <div id="club-details">
+                <p id="club-name"></p>
+                <p id="club-foundation-year"></p>
+                <p id="club-city"></p>
+                <p id="club-stadium"></p>
+                <p id="club-stadium-capacity"></p>
+                <p id="club-country"></p>
+            </div>
+        </div>
+        <script>
+            var teamData = {{ teamData|safe }};
+        </script>
+        <script src="{% static 'js/club_generation.js' %}"></script>
+    </div>
+    <div id="league-container">
+        <h1>Matches</h1>
+        <div id="matches-container">
+            <!-- Mecze będą wstawiane tutaj dynamicznie za pomocą JavaScript -->
+        </div>
+        <script>
+            var fixturesData = {{ fixturesData|safe }};
+        </script>
+        <script src="{% static 'js/matches_generation.js' %}"></script>
+    </div>
+</body>
+</html>

@@ -13,29 +13,50 @@
         <h2 class="title-heading">Football stats</h2>
         <button class="logout-button"><a href="{% url 'logout' %}" id="logout-link">Logout</a></button>
     </div>
-    <div id="flag-container">
-        <h1>{{ leagueName }} Table</h1>
+    <div id="league-container">
+        <h1 class="league-name">{{ leagueName }} Table</h1>
         <table id="league-table">
             <thead>
                 <tr>
-                    <th>Pozycja</th>
-                    <th>Drużyna</th>
-                    <th>Mecze</th>
-                    <th>Wygrane</th>
-                    <th>Remisy</th>
-                    <th>Przegrane</th>
-                    <th>Punkty</th>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>Matches</th>
+                    <th>Wins</th>
+                    <th>Draws</th>
+                    <th>Loses</th>
+                    <th>Goals Diff</th>
+                    <th>Points</th>
                 </tr>
             </thead>
             <tbody id="table-body">
                 <!-- Dane będą wstawiane tutaj dynamicznie za pomocą JavaScript -->
             </tbody>
         </table>
+        <h1 class="title-table">Top Scorers</h1>
+        <table id="top-scorers-table">
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Goals</th>
+                    <th>Assists</th>
+                </tr>
+            </thead>
+            <tbody id="top-scorers-body">
+                <!-- Dane najlepszych strzelców będą wstawiane tutaj dynamicznie za pomocą JavaScript -->
+            </tbody>
+        </table>
+        <h1 class="title-matches">Matches</h1>
+        <div id="matches-container">
+            <!-- Mecze będą wstawiane tutaj dynamicznie za pomocą JavaScript -->
+        </div>
         <script>
             var leagueData = {{ leagueData|safe }};
+            var scoreData = {{ scoreData|safe }};
+            var fixturesData = {{ fixturesData|safe }};
         </script>
         <script src="{% static 'js/table_generation.js' %}"></script>
-        <div id="league-data" data-league="{{ leagueData|safe }}"></div>
+        <script src="{% static 'js/scorers_generation.js' %}"></script>
+        <script src="{% static 'js/matches_generation.js' %}"></script>
     </div>
 </body>
 </html>

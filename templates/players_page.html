@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/players.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/league_table.css' %}">
+    <title>Player page</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="title-heading">Football stats</h2>
+        <button class="logout-button"><a href="{% url 'logout' %}" id="logout-link">Logout</a></button>
+    </div>
+    <div id="league-container">
+        <div id="player-info-container">
+            <img id="player-photo" src="" alt="Player Photo">
+            <div id="player-details">
+                <p id="player-name"></p>
+                <p id="player-age"></p>
+                <p id="player-club"></p>
+            </div>
+        </div>
+        <script>
+            var playerData = {{ playerData|safe }};
+        </script>
+        <script src="{% static 'js/player_generation.js' %}"></script>
+    </div>
+</body>
+</html>

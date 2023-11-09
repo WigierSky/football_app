@@ -1,0 +1,36 @@
+#club-name {
+    font-size: 24px; /* Przykładowy rozmiar czcionki (możesz dostosować) */
+    font-weight: bold; /* Pogrubiona nazwa klubu */
+}
+
+/* Dla innych informacji o klubie, również możesz ustawić odpowiednie stylizacje */
+#club-foundation-year {
+    font-size: 18px;
+}
+
+#club-city {
+    font-size: 18px;
+}
+
+#club-stadium {
+    font-size: 18px;
+}
+
+#club-stadium-capacity {
+    font-size: 18px;
+}
+
+#club-country {
+    font-size: 18px;
+}
+
+#club-info-container {
+    display: flex;
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    text-align: center; /* Wyrównanie tekstu do środka */
+}
+
+#club-logo {
+    margin-right: 20px; /* Dodaj odstęp między logiem a resztą informacji */
+}
